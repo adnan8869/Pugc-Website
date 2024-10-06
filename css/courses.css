@@ -1,0 +1,63 @@
+/* Container Styles */
+.container {
+    margin-top: 20px;
+}
+
+/* Heading Styles */
+.u-heading-v3__title {
+    border-bottom: 2px solid #000; /* Add border under the heading */
+}
+
+/* Tab Styles */
+.nav-link {
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover */
+}
+
+/* Image Styles */
+figure {
+    border-radius: 10px; /* Rounded corners for images */
+    overflow: hidden; /* Ensures the image stays within rounded corners */
+}
+
+figure img {
+    transition: transform 0.3s ease;
+}
+
+figure:hover img {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+/* List Styles */
+.list-unstyled li {
+    padding: 8px 0; /* Spacing between list items */
+}
+
+.list-unstyled li a {
+    transition: color 0.3s ease;
+}
+
+.list-unstyled li a:hover {
+    color: #007bff; /* Change color on hover */
+}
+/* Shorten the line under the heading */
+.u-heading-v3__title {
+    border-bottom: 2px solid #000; /* Border color */
+    display: inline-block; /* Make the border only as wide as the text */
+    padding-bottom: 5px; /* Space between text and border */
+}
+
+/* Optional: Adjust the margin of the heading if needed */
+.u-heading-v3-1 {
+    margin-bottom: 20px; /* Adjust space below the heading */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .col-lg-3 {
+        margin-top: 20px; /* Add margin on top for small screens */
+    }
+}
